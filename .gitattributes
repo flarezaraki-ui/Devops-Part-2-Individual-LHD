@@ -1,0 +1,13 @@
+# Automatically detect text files
+* text=auto
+
+# Standardise line endings for project files
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.json text eol=lf
+
+# Keep image files as binary
+*.png binary
+*.jpg binary
+*.jpeg binary
