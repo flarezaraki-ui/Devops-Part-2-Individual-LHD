@@ -8,25 +8,6 @@ body {
 }
 
 
-#navigation {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-    background-color: #161b22;
-    padding: 16px 0;
-    border-bottom: 1px solid #21262d;
-}
-
-#navigation a {
-    color: #c9d1d9;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: 400;
-}
-
-#navigation a:hover {
-    color: #58a6ff;
-}
 
 
 h1 {
