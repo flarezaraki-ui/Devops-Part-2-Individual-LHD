@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./js/Hong-Da.js"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <title>Task Manager</title>
+</head>
+<body>
+    <div id="navigation">
+        <a class = "links" href = "">Home</a>
+        <a class = "links" href = "">Add Task</a>
+        <a class = "links" href = "">Modify Task</a>
+        <a>Delete Task</a>
+    </div>
+    <h1>Add Task</h1>
+    <div>
+        <p>Task Title</p>
+        <input type="text" id="title">
+        <p>Subject</p>
+        <input type="text" id="subject">
+        <p>Deadline</p>
+        <input type="date" id="deadline">
+        <p>Description</p>
+        <input type="text" id="description">
+        <button type="submit" class="btn-submit" onclick="addTask()">Add Task</button>
+    </div>
+</body>
+</html>
