@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Devops Create Function",
+    "subject": "Devops",
+    "status": "uncomplete",
+    "deadline": "2026-11-17",
+    "description": "The first of the CRUD functions to test the read, update and delete functionalities later on",
+    "id": "1794840375165206"
+  },
+  {
+    "title": "E-portfolio",
+    "subject": "ProCOMM",
+    "status": "uncomplete",
+    "deadline": "2026-11-18",
+    "description": "Submit on MS teams for review and prep for interview",
+    "id": "1794840420598659"
+  },
+  {
+    "title": "Devops Update and Delete Function",
+    "subject": "Devops",
+    "status": "uncomplete",
+    "deadline": "2026-11-26",
+    "description": "Next two CRUD features to be implemented",
+    "id": "1794840713754273"
+  }
+]
