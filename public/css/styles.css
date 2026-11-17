@@ -1,14 +1,10 @@
-
 body {
-    background-color: #0d1117; 
+    background-color: #0d1117;
     color: #e6edf3;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     margin: 0;
     padding: 0;
 }
-
-
-
 
 h1 {
     text-align: center;
@@ -18,9 +14,8 @@ h1 {
     color: #f0f6fc;
 }
 
-
-body > div:last-of-type {
-    background-color: #161b22; 
+body>div:last-of-type {
+    background-color: #161b22;
     border: 1px solid #30363d;
     border-radius: 12px;
     max-width: 580px;
@@ -29,25 +24,23 @@ body > div:last-of-type {
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
 
-
-body > div:last-of-type p {
+body>div:last-of-type p {
     font-size: 14px;
     color: #c9d1d9;
     margin-top: 20px;
     margin-bottom: 8px;
 }
 
-body > div:last-of-type p:first-child {
+body>div:last-of-type p:first-child {
     margin-top: 0;
 }
 
-
-body > div:last-of-type input[type="text"],
-body > div:last-of-type input[type="date"] {
+body>div:last-of-type input[type="text"],
+body>div:last-of-type input[type="date"] {
     width: 100%;
     padding: 12px 16px;
     background-color: #ffffff;
-    border: 2px solid #7ae582; 
+    border: 2px solid #7ae582;
     border-radius: 8px;
     font-size: 15px;
     color: #24292f;
@@ -55,18 +48,17 @@ body > div:last-of-type input[type="date"] {
     outline: none;
 }
 
-body > div:last-of-type input:focus {
+body>div:last-of-type input:focus {
     border-color: #51cf66;
     box-shadow: 0 0 0 3px rgba(122, 229, 130, 0.25);
 }
-
 
 .btn-submit {
     display: block;
     width: 200px;
     margin: 35px auto 0 auto;
     padding: 12px;
-    background-color: #7ae582; 
+    background-color: #7ae582;
     color: #1f2421;
     font-weight: 600;
     font-size: 15px;
@@ -79,4 +71,145 @@ body > div:last-of-type input:focus {
 
 .btn-submit:hover {
     background-color: #68d871;
+}
+
+.tasks-table {
+    width: 70%;
+    max-width: 700px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 0 12px;
+}
+
+.tasks-table td {
+    background-color: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    padding: 16px 20px;
+}
+
+.tasks-table strong {
+    display: block;
+    color: #f0f6fc;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.tasks-table p {
+    color: #8b949e;
+    font-size: 13px;
+    margin: 6px 0 0;
+}
+
+.home-add-task {
+    text-decoration: none;
+}
+
+.tasks-table td {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+}
+
+.task-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.btn-edit,
+.btn-delete {
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #304038;
+    color: #7ae582;
+}
+
+.btn-delete {
+    background-color: #423036;
+    color: #f18d8d;
+}
+
+.delete-task-dialog {
+    width: 90%;
+    max-width: 580px;
+    max-height: 85vh;
+    padding: 25px 30px;
+    box-sizing: border-box;
+    background-color: #1d222b;
+    color: #e6edf3;
+    border: 1px solid #30363d;
+    border-radius: 12px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
+    overflow-y: auto;
+}
+
+.delete-task-dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.delete-task-dialog h2 {
+    text-align: center;
+    font-size: 22px;
+    margin: 0 0 15px;
+}
+
+.delete-confirmation {
+    color: #f18d8d;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.delete-task-details p {
+    font-size: 14px;
+    margin: 14px 0 6px;
+}
+
+.delete-task-details div {
+    background-color: #30343d;
+    border: 1px solid #454b56;
+    border-radius: 8px;
+    padding: 12px;
+    font-size: 14px;
+    overflow-wrap: anywhere;
+}
+
+.delete-task-actions {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 25px;
+}
+
+.delete-task-actions button {
+    min-width: 130px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#cancelDeleteButton {
+    background-color: #444b56;
+}
+
+#confirmDeleteButton {
+    background-color: #d65c65;
+}
+
+#cancelDeleteButton:hover {
+    background-color: #555d69;
+}
+
+#confirmDeleteButton:hover {
+    background-color: #c44c56;
 }

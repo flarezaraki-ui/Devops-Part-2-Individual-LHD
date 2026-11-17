@@ -2,7 +2,7 @@ class Task {
     constructor(title, subject, status, deadline, description) {
         this.title = title;
         this.subject = subject;
-        this.status = status;//ask if we should remove
+        this.status = status;
         this.deadline = deadline;
         this.description = description;
         const timestamp = new Date().getTime();
