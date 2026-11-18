@@ -34,11 +34,6 @@ function updateTasks(event) {
         deadline: document.getElementById('deadline').value,
         description: document.getElementById('description').value
     };
-    
-    if (jsonData.title == "" || jsonData.subject == "" || jsonData.status == "" || jsonData.deadline == "" || jsonData.description == "") {
-        alert("All fields are required.");
-        return;
-    }
 
     var request = new XMLHttpRequest();
     request.open("PUT", "/edit-tasks/" + taskId, true);
