@@ -57,6 +57,10 @@ async function loadTasks() {
             editButton.className = 'btn-edit';
             editButton.dataset.taskId = task.id;
 
+            editButton.addEventListener('click', () => {
+                window.location.href = `editTask.html?id=${task.id}`;
+            });
+
             // Delete button for Harold's Delete Task feature
             const deleteButton = document.createElement('button');
             deleteButton.type = 'button';
