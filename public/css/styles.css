@@ -213,3 +213,50 @@ body>div:last-of-type input:focus {
 #confirmDeleteButton:hover {
     background-color: #c44c56;
 }
+
+.task-form {
+    max-width: 730px;
+    margin: 0 auto;
+    padding: 24px 64px 32px;
+    background: #1c212b;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.task-form label {
+    font-size: 16px;
+    margin: 12px 0 6px;
+}
+
+.task-form input {
+    width: 100%;
+    padding: 12px 14px;
+    font: inherit;
+    color: #111;
+    background: #fff;
+    border: 2px solid #7ee3b5;
+    border-radius: 10px; 
+}
+
+.task-form input:focus {
+    outline: none;
+    border-color: #4fcf98;
+    box-shadow: 0 0 0 3px rgba(126, 227, 181, 0.35);
+}
+
+.task-form button {
+    align-self: center;
+    margin-top: 24px;
+    padding: 14px 64px;
+    font: inherit;
+    color: #111;
+    background: 7ee3b5;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.task-form button:hover {
+    background: #62d6a0;
+}

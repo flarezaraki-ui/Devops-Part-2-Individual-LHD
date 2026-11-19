@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Update Task</title>
+        <link rel="stylesheet" href="./css/styles.css">
+    </head>
+    <body>
+        <h1>Update Task</h1>
+        <form class="task-form">
+            <label for="title">Task Title</label>
+            <input type="text" id="title" name="title">
+            <label for="subject">Task Subject</label>
+            <input type="text" id="subject" name="subject">
+            <label for="status">Task Status</label>
+            <select id="status" name="status">
+                <option>Incomplete</option>
+                <option>Complete</option>
+            </select>
+            <label for="deadline">Task Deadline</label>
+            <input type="date" id="deadline">
+            <label for="description">Task Description</label>
+            <input type="text" id="description" name="description">
+            <button type="submit">Update</button>
+        </form>
+        <script src="./js/DixonNg.js" defer></script>
+    </body>
+</html>
