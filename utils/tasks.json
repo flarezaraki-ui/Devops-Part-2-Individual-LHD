@@ -1,11 +1,21 @@
 [
   {
+    "title": "Devops Create Function",
+    "subject": "Devops",
+    "status": "Incomplete",
+    "deadline": "2026-11-27",
+    "description": "The first of the CRUD functions to test the read, update and delete functionalities later on",
+    "id": "1794840375165206",
+    "descripton": "opfrbjikerbhjif"
+  },
+  {
     "title": "E-portfolio",
     "subject": "ProCOMM",
     "status": "uncomplete",
     "deadline": "2026-11-18",
     "description": "Submit on MS teams for review and prep for interview",
-    "id": "1794840420598659"
+    "id": "1794840420598659",
+    "descripton": "testing"
   },
   {
     "title": "Devops Update and Delete Function",

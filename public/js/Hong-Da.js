@@ -28,6 +28,7 @@ function addTask() {
             document.getElementById("subject").value = "";
             document.getElementById("description").value = "";
             document.getElementById("deadline").value = "";
+            window.location.href = "/index.html"; // Redirect to index page
             
         } else {
             if (response.message == "Task already exists!") {
